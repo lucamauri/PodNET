@@ -17,7 +17,9 @@ internal class Program
         Channel.ChannelAuthor = "LucaMauri Company";
         Channel.ChannelType = PodType.Episodic;
 
-        PodEpisode Episode = new PodEpisode("Episodio", "www.lucamauri.com/episodio1.flac", "Episodio1", DateTime.Now);
+        PodEpisode Episode = new PodEpisode("Episodio", new Uri("http://mypodcast.com/episode001.mp"), 5650889, EpisodeFileType.AudioMPEG);
+        Episode.EpisodePublishDate = DateTime.Now;
+        Episode.EpisodeTitle = "Episodio1";
         Episodes.Add(Episode);
 
         PodRSSFeed Feeder = new PodRSSFeed();

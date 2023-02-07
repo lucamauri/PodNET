@@ -7,6 +7,7 @@ using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Threading.Channels;
 using System.Xml.Linq;
+using System.Xml.Schema;
 using System.Xml.Serialization;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -37,10 +38,10 @@ namespace SynthesisCode.Open.PodNET
                 new XElement(NSiTunes + "explicit", Channel.ChannelExplicit),
                 items.Select(i =>
                     new XElement("item",
-                    new XElement("title", i.Title),
-                     new XElement("link", i.Link),
-                     new XElement("description", i.Description),
-                     new XElement("pubDate", i.PublishDate.ToString("r"))
+                    new XElement("title", i.EpisodeTitle),
+                     new XElement("link", i.EpisodeLink),
+                     new XElement("description", i.EpisodeDescription),
+                     new XElement("pubDate", i.EpisodePublishDate.ToString("r"))
                  )
              )
          )
@@ -95,15 +96,34 @@ namespace SynthesisCode.Open.PodNET
             {
                 XMLChannel.Add(new XElement(NSiTunes + "type", Channel.ChannelType));
             }
+            
             XMLChannel.Add(Channel.ChannelCopyright != null ? new XElement("copyright", Channel?.ChannelCopyright) : null);
 
+            if (Channel.ChannelBlock != null)
+            {
+                XMLChannel.Add(new XElement(NSiTunes + "block", Channel.ChannelBlock));
+            }
+            if (Channel.ChannelComplete != null)
+            {
+                XMLChannel.Add(new XElement(NSiTunes + "complete", Channel.ChannelComplete));
+            }
+
             IEnumerable<XElement> XMLEpisodes = items.Select(i => new XElement("item", 
-                new XElement("title", i.Title),
-                new XElement("link", i.Link),
-                new XElement("description", i.Description),
-                new XElement("pubDate", i.PublishDate.ToString("r"))
+                new XElement("title", i.EpisodeTitle),
+                new XElement("enclosure", 
+                    new XAttribute("url", i.EpisodeURL),
+                    new XAttribute ("length", i.EpisodeLength),
+                    new XAttribute("type", i.EpisodeFileType)
+                    )
                 )
              );
+
+            /*
+             
+                new XElement("link", i.EpisodeLink),
+                new XElement("description", new XCData(i.EpisodeDescription)),
+                new XElement("pubDate", i.EpisodePublishDate.ToString("r"))
+             */
             XMLChannel.Add(XMLEpisodes);
             XMLRoot.Add(XMLChannel);
 
