@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<categories>
+  <category name="Arts">
+
+    <subcategory>Books</subcategory>
+
+    <subcategory>Design</subcategory>
+
+    <subcategory>Fashion &amp; Beauty</subcategory>
+
+    <subcategory>Food</subcategory>
+
+    <subcategory>Performing Arts</subcategory>
+
+    <subcategory>Visual Arts</subcategory>
+  </category>
+  <category name="Business">
+
+    <subcategory>Careers</subcategory>
+
+    <subcategory>Entrepreneurship</subcategory>
+
+    <subcategory>Investing</subcategory>
+
+    <subcategory>Management</subcategory>
+
+    <subcategory>Marketing</subcategory>
+
+    <subcategory>Non-Profit</subcategory>
+  </category>
+  <category name="Comedy">
+
+    <subcategory>Comedy Interviews</subcategory>
+
+    <subcategory>Improv</subcategory>
+
+    <subcategory>Stand-Up</subcategory>
+  </category>
+  <category name="Education">
+
+    <subcategory>Courses</subcategory>
+
+    <subcategory>How To</subcategory>
+
+    <subcategory>Language Learning</subcategory>
+
+    <subcategory>Self-Improvement</subcategory>
+  </category>
+  <category name="Fiction">
+
+    <subcategory>Comedy Fiction</subcategory>
+
+    <subcategory>Drama</subcategory>
+
+    <subcategory>Science Fiction</subcategory>
+  </category>
+  <category name="Government">
+  </category>
+  <category name="History">
+  </category>
+  <category name="Health &amp; Fitness">
+
+    <subcategory>Alternative Health</subcategory>
+
+    <subcategory>Fitness</subcategory>
+
+    <subcategory>Medicine</subcategory>
+
+    <subcategory>Mental Health</subcategory>
+
+    <subcategory>Nutrition</subcategory>
+
+    <subcategory>Sexuality</subcategory>
+  </category>
+  <category name="Kids &amp; Family">
+
+    <subcategory>Education for Kids</subcategory>
+
+    <subcategory>Parenting</subcategory>
+
+    <subcategory>Pets &amp; Animals</subcategory>
+
+    <subcategory>Stories for Kids</subcategory>
+  </category>
+  <category name="Leisure">
+
+    <subcategory>Animation &amp; Manga</subcategory>
+
+    <subcategory>Automotive</subcategory>
+
+    <subcategory>Aviation</subcategory>
+
+    <subcategory>Crafts</subcategory>
+
+    <subcategory>Games</subcategory>
+
+    <subcategory>Hobbies</subcategory>
+
+    <subcategory>Home &amp; Garden</subcategory>
+
+    <subcategory>Video Games</subcategory>
+  </category>
+  <category name=" Music">
+
+    <subcategory>Music Commentary</subcategory>
+
+    <subcategory>Music History</subcategory>
+
+    <subcategory>Music Interviews</subcategory>
+  </category>
+  <category name="News">
+
+    <subcategory>Business News</subcategory>
+
+    <subcategory>Daily News</subcategory>
+
+    <subcategory>Entertainment News</subcategory>
+
+    <subcategory>News Commentary</subcategory>
+
+    <subcategory>Politics</subcategory>
+
+    <subcategory>Sports News</subcategory>
+
+    <subcategory>Tech News</subcategory>
+  </category>
+  <category name="Religion &amp; Spirituality">
+
+    <subcategory>Buddhism</subcategory>
+
+    <subcategory>Christianity</subcategory>
+
+    <subcategory>Hinduism</subcategory>
+
+    <subcategory>Islam</subcategory>
+
+    <subcategory>Judaism</subcategory>
+
+    <subcategory>Religion</subcategory>
+
+    <subcategory>Spirituality</subcategory>
+  </category>
+  <category name="Science">
+
+    <subcategory>Astronomy</subcategory>
+
+    <subcategory>Chemistry</subcategory>
+
+    <subcategory>Earth Sciences</subcategory>
+
+    <subcategory>Life Sciences</subcategory>
+
+    <subcategory>Mathematics</subcategory>
+
+    <subcategory>Natural Sciences</subcategory>
+
+    <subcategory>Nature</subcategory>
+
+    <subcategory>Physics</subcategory>
+
+    <subcategory>Social Sciences</subcategory>
+  </category>
+  <category name="Society &amp; Culture">
+
+    <subcategory>Documentary</subcategory>
+
+    <subcategory>Personal Journals</subcategory>
+
+    <subcategory>Philosophy</subcategory>
+
+    <subcategory>Places &amp; Travel</subcategory>
+
+    <subcategory>Relationships</subcategory>
+  </category>
+  <category name="Sports">
+
+    <subcategory>Baseball</subcategory>
+
+    <subcategory>Basketball</subcategory>
+
+    <subcategory>Cricket</subcategory>
+
+    <subcategory>Fantasy Sports</subcategory>
+
+    <subcategory>Football</subcategory>
+
+    <subcategory>Golf</subcategory>
+
+    <subcategory>Hockey</subcategory>
+
+    <subcategory>Rugby</subcategory>
+
+    <subcategory>Soccer</subcategory>
+
+    <subcategory>Swimming</subcategory>
+
+    <subcategory>Tennis</subcategory>
+
+    <subcategory>Volleyball</subcategory>
+
+    <subcategory>Wilderness</subcategory>
+
+    <subcategory>Wrestling</subcategory>
+  </category>
+  <category name="Technology">
+  </category>
+  <category name="True Crime">
+  </category>
+  <category name="TV &amp; Film">
+
+    <subcategory>After Shows</subcategory>
+
+    <subcategory>Film History</subcategory>
+
+    <subcategory>Film Interviews</subcategory>
+
+    <subcategory>Film Reviews</subcategory>
+
+    <subcategory>TV Reviews</subcategory>
+  </category>
+</categories>

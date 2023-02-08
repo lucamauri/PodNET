@@ -15,6 +15,12 @@ namespace SynthesisCode.Open.PodNET
 {
     public class PodRSSFeed
     {
+        public List<PodCategory> AllCategories { get; private set; }
+        public PodRSSFeed()
+        {
+            PodCategories Categories= new PodCategories();
+            AllCategories = Categories.ChannelCategories;  
+        }
         public XDocument CreateRssFeedOriginal(PodChannel Channel, IEnumerable<PodEpisode> items)
         {
             //xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
